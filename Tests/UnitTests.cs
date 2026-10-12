@@ -118,7 +118,7 @@ public class Exponent
 	[TestMethod]
 	public void Power_Valid_Mohanty()
 	{
-		Assert.AreEqual(9, Program.Power("2", "3"));
+		Assert.AreEqual(8, Program.Power("2", "3"));
 		Assert.AreEqual(1, Program.Power("5", "0"));
 		Assert.AreEqual(2, Program.Power("4", "0.5"));
 	}
